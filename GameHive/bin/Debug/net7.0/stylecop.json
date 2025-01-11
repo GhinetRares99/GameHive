@@ -1,0 +1,25 @@
+{
+  "$schema": "https://raw.githubusercontent.com/DotNetAnalyzers/StyleCopAnalyzers/master/StyleCop.Analyzers/StyleCop.Analyzers.schema.json",
+  "settings": {
+    "documentationRules": {
+      "documentInterfaces": true,
+      "documentPrivateElements": false,
+      "documentInternalElements": false,
+      "documentProtectedElements": false,
+      "documentProtectedInternalElements": false,
+      "documentPrivateFields": false,
+      "companyName" : "Ghinet Rares",
+      "copyrightText": "Copyright (c) Ghinet Rares. All rights reserved."
+    },
+    "orderingRules": {
+      "usingDirectivesPlacement": "insideNamespace"
+    },
+    "indentation": {
+      "indentationSize": 4,
+      "useTabs": false
+    },
+    "namespaceDeclaration": {
+      "singleLine": true
+    }
+  }
+}
