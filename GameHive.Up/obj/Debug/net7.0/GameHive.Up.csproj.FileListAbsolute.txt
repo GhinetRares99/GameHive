@@ -106,3 +106,4 @@ C:\Users\mariu\Desktop\GameHive\GameHive.Up\obj\Debug\net7.0\refint\GameHive.Up.
 C:\Users\mariu\Desktop\GameHive\GameHive.Up\obj\Debug\net7.0\GameHive.Up.pdb
 C:\Users\mariu\Desktop\GameHive\GameHive.Up\obj\Debug\net7.0\GameHive.Up.genruntimeconfig.cache
 C:\Users\mariu\Desktop\GameHive\GameHive.Up\obj\Debug\net7.0\ref\GameHive.Up.dll
+C:\Users\rares\OneDrive\Desktop\GameHive\GameHive.Up\obj\Debug\net7.0\GameHive.Up.sourcelink.json

@@ -216,6 +216,18 @@ public static class PopulatePermissionsCollection
             },
             new()
             {
+                Endpoint = "/api/Possession/delete",
+                HttpMethod = "POST",
+                Role = "Client"
+            },
+            new()
+            {
+                Endpoint = "/api/Possession/delete",
+                HttpMethod = "POST",
+                Role = "Admin"
+            },
+            new()
+            {
                 Endpoint = "/api/Possession/deleteByGameId",
                 HttpMethod = "DELETE",
                 Role = "Admin"

@@ -53,4 +53,12 @@ public interface IPossessionService
     /// <param name="userId">The id of the user.</param>
     /// <returns><c>true</c> if the operation is successful; otherwise, <c>false</c>.</returns>
     Task<bool> DeletePossessionsByUserId(string userId);
+
+    /// <summary>
+    /// Deletes a possession from the database.
+    /// </summary>
+    /// <param name="userId">The id of the user.</param>
+    /// <param name="gameId">The id of the game.</param>
+    /// <returns><c>true</c> if the operation is successful; otherwise, <c>false</c>.</returns>
+    Task<bool> DeletePossession(string userId, string gameId);
 }

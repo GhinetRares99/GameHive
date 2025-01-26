@@ -250,6 +250,11 @@ public static class ConstantValues
     /// </summary>
     public const string GameOwned = "The game is already owned.";
 
+    /// <summary>
+    /// Gets the GameNotOwned constant.
+    /// </summary>
+    public const string GameNotOwned = "The game is not owned.";
+
     // Error messages
 
     /// <summary>
@@ -383,4 +388,9 @@ public static class ConstantValues
     /// Gets the PossessionAddedSuccessfully constant.
     /// </summary>
     public const string PossessionAddedSuccessfully = "Possession added successfully.";
+
+    /// <summary>
+    /// Gets the PossessionRemovedSuccessfully constant.
+    /// </summary>
+    public const string PossessionRemovedSuccessfully = "Possession removed successfully.";
 }

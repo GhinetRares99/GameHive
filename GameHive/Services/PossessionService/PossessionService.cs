@@ -6,7 +6,6 @@ namespace GameHive.Services.PossessionService;
 
 using GameHive.Models;
 using GameHive.Services.Repositories.PossessionRepository;
-using System.Xml.Linq;
 
 /// <summary>
 /// Represents the service for the <see cref="Possession"/> class.
@@ -88,6 +87,24 @@ public class PossessionService : IPossessionService
     public async Task<bool> DeletePossessionsByUserId(string userId)
     {
         var result = await this.possessionRepository.RemovePossessionsByUserId(userId);
+        return result;
+    }
+
+    /// <summary>
+    /// Deletes a possession from the database.
+    /// </summary>
+    /// <param name="userId">The id of the user.</param>
+    /// <param name="gameId">The id of the game.</param>
+    /// <returns><c>true</c> if the operation is successful; otherwise, <c>false</c>.</returns>
+    public async Task<bool> DeletePossession(string userId, string gameId)
+    {
+        var possessionToDelete = await this.possessionRepository.FindPossessionByGameIdAndUserId(userId, gameId);
+        if (possessionToDelete == null)
+        {
+            return false;
+        }
+
+        var result = await this.possessionRepository.DeleteAsync(possessionToDelete.Id);
         return result;
     }
 }

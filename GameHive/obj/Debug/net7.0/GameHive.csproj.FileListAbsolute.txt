@@ -163,3 +163,4 @@ C:\Users\mariu\Desktop\GameHive\GameHive\obj\Debug\net7.0\scopedcss\bundle\GameH
 C:\Users\mariu\Desktop\GameHive\GameHive\obj\Debug\net7.0\GameHive.csproj.Up2Date
 C:\Users\mariu\Desktop\GameHive\GameHive\obj\Debug\net7.0\GameHive.genruntimeconfig.cache
 C:\Users\mariu\Desktop\GameHive\GameHive\obj\Debug\net7.0\ref\GameHive.dll
+C:\Users\rares\OneDrive\Desktop\GameHive\GameHive\obj\Debug\net7.0\GameHive.sourcelink.json

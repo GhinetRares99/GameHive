@@ -122,6 +122,7 @@ public class ServiceConfiguration
         services.AddScoped<GetPossessionByGameIdAndUserIdHandler>();
         services.AddScoped<GetPossessionsByGameIdHandler>();
         services.AddScoped<GetPossessionsByUserIdHandler>();
+        services.AddScoped<DeletePossessionHandler>();
         services.AddScoped<DeletePossessionsByGameIdHandler>();
         services.AddScoped<DeletePossessionsByUserIdHandler>();
 
@@ -139,6 +140,7 @@ public class ServiceConfiguration
         services.AddScoped<UpdateTrophyValidator>();
 
         services.AddScoped<AddPossessionValidator>();
+        services.AddScoped<DeletePossessionValidator>();
 
         // Token Settings
         var tokenSettingsSection = configuration.GetSection(ConstantValues.TokenSettingsSection);

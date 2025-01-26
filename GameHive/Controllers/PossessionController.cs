@@ -64,6 +64,18 @@ public class PossessionController : ControllerBase
         [FromServices] GetPossessionsByUserIdHandler getPossessionsByUserIdHandler) => await getPossessionsByUserIdHandler.Handle(request);
 
     /// <summary>
+    /// Deletes a possession object from the database.
+    /// </summary>
+    /// <param name="request">The delete possession request.</param>
+    /// <param name="deletePossessionHandler">The handler for deleting a possession from the database.</param>
+    /// <returns>An asynchronous task that represents the operation and holds the action result.</returns>
+    [Authorize]
+    [HttpDelete("delete")]
+    public async Task<IActionResult> DeletePossession(
+        [FromBody] DeletePossessionRequest request,
+        [FromServices] DeletePossessionHandler deletePossessionHandler) => await deletePossessionHandler.Handle(request);
+
+    /// <summary>
     /// Deletes possessions from the database by game id.
     /// </summary>
     /// <param name="request">The delete possessions request.</param>
