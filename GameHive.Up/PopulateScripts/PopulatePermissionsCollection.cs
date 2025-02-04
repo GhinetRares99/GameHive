@@ -217,13 +217,13 @@ public static class PopulatePermissionsCollection
             new()
             {
                 Endpoint = "/api/Possession/delete",
-                HttpMethod = "POST",
+                HttpMethod = "DELETE",
                 Role = "Client"
             },
             new()
             {
                 Endpoint = "/api/Possession/delete",
-                HttpMethod = "POST",
+                HttpMethod = "DELETE",
                 Role = "Admin"
             },
             new()
