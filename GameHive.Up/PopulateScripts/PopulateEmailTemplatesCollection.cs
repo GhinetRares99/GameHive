@@ -29,6 +29,14 @@ public static class PopulateEmailTemplatesCollection
                 Subject = "Recover your password",
                 IsHtmlEmail = false,
             },
+            new()
+            {
+                Id = "658186e0f1035a32c9a20e02",
+                Name = "Purchase email",
+                Text = "You have purchased {GameName} for {Price}€.",
+                Subject = "Thenk you for your purchase!",
+                IsHtmlEmail = false,
+            },
         };
 
         await collection.InsertManyAsync(documents);
