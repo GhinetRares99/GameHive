@@ -37,6 +37,14 @@ public static class PopulateTrophiesCollection
                 Description = "Plant the bomb on each map.",
                 IconUrl = "DefaultTrophy.jpg",
             },
+            new()
+            {
+                Id = "000000000000000000000003",
+                GameId = "000000000000000000000005",
+                Name = "Legend",
+                Description = "Achieve 100% completion.",
+                IconUrl = "DefaultTrophy.jpg",
+            },
         };
 
         await collection.InsertManyAsync(documents);

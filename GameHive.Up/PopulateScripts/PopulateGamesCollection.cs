@@ -78,6 +78,38 @@ public static class PopulateGamesCollection
                 PicTwo = "Metin2PicTwo.jpg",
                 PicThree = "Metin2PicThree.jpg",
             },
+            new()
+            {
+                Id = "000000000000000000000004",
+                Name = "SOMA",
+                Description = "Delve into the depths of the ocean and face the mechanical horrors that await you.",
+                Genre = "Survival Horror",
+                Price = 20.00,
+                MinimumSupportedOS = "Windows 8",
+                MinimumSupportedGraphicsCard = "GeForce 5200 ti",
+                MinimumSupportedProcessor = "Pentium 4 M2A5",
+                MinimumSupportedMemory = "2GB RAM",
+                Storage = "15GB",
+                PicOne = "SOMACover.jpg",
+                PicTwo = "SOMAPicTwo.jpg",
+                PicThree = "SOMAPicThree.jpg",
+            },
+            new()
+            {
+                Id = "000000000000000000000005",
+                Name = "Cyberpunk 2077",
+                Description = "Walk the streets of Night City and become the most feared crime lord.",
+                Genre = "Open World",
+                Price = 60.00,
+                MinimumSupportedOS = "Windows 10",
+                MinimumSupportedGraphicsCard = "GeForce Ultra 220",
+                MinimumSupportedProcessor = "Ryzen 5",
+                MinimumSupportedMemory = "12GB RAM",
+                Storage = "70GB",
+                PicOne = "Cyberpunk2077Cover.jpg",
+                PicTwo = "Cyberpunk2077PicTwo.jpg",
+                PicThree = "Cyberpunk2077PicThree.jpg",
+            },
         };
 
         await collection.InsertManyAsync(documents);
