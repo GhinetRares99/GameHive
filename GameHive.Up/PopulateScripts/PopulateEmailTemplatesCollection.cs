@@ -34,7 +34,7 @@ public static class PopulateEmailTemplatesCollection
                 Id = "658186e0f1035a32c9a20e02",
                 Name = "Purchase email",
                 Text = "You have purchased {GameName} for {Price}€.",
-                Subject = "Thenk you for your purchase!",
+                Subject = "Thank you for your purchase!",
                 IsHtmlEmail = false,
             },
         };

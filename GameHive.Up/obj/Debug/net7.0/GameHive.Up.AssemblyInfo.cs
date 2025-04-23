@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("GameHive.Up")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f06c15a9fdfc067ca02e0963deeabdc2aefbc4a3")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c1ef4e822fa76ca7605b022b37b017c06d99b5e2")]
 [assembly: System.Reflection.AssemblyProductAttribute("GameHive.Up")]
 [assembly: System.Reflection.AssemblyTitleAttribute("GameHive.Up")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
